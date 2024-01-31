@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição Sobre Semanticas / Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(147, 171, 180);
+        }
+
+        header {
+            background-color: rgb(118, 126, 141);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav > a {
+            padding: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        nav > a:active {
+            color: cyan;
+        }
+
+        main {
+            background-color: rgb(183, 196, 206);
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            padding: 1px;
+            text-align: center;
+            color: aliceblue;
+            margin: 0px;
+        }
+
+        #assuntos {
+            background-color: rgb(22, 29, 39);
+            padding: 5px;
+            color: aliceblue;
+        }
+
+        aside {
+            background-color: rgb(147, 155, 170);
+        }
+
+        article > h2 {
+            background-color: rgb(22, 37, 49);
+            color: aliceblue;
+            padding: 5px;
+        }
+
+        article > p {
+            background-color: rgb(172, 180, 196);
+            border-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic officiis provident necessitatibus aspernatur? Quo explicabo saepe error. Eligendi asperiores, nesciunt explicabo exercitationem delectus laboriosam voluptas, animi cumque autem sit error. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nesciunt provident, commodi quae labore aliquid fugit sed repellendus ex magni. Minus necessitatibus doloribus ex inventore nobis vitae non assumenda ab.</p>
+    </main>
+    <section id="assuntos">
+        Futebol Noticias Tecnologia Guerra
+    </section>
+    <article>
+        <h2>Noticia Sobre a Guerra</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic molestiae rem in placeat adipisci totam? At accusantium dicta, quae deserunt rem harum sed, suscipit obcaecati ullam cupiditate atque temporibus.</p>
+    </article>
+    <aside>
+        <p>Artigo escrito por Lucas Bertaggia.</p>
+    </aside>
+    <footer>
+        Desenvolvido por Lucas Bertaggia.
+    </footer>
+</body>
+</html>

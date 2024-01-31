@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino com Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgba(2, 122, 122, 0.774);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(202, 49, 100);
+        }
+
+        a:hover {
+            color: darkred;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: chartreuse;
+        } 
+
+        .principal {
+            background-color: rgb(59, 186, 236);
+    
+
+        }
+
+        .principal::before {
+            content: '⇨';
+        }
+
+        .principal::after {
+            content: '⇦';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/lucas_bertaggia/" target="_blank" rel="external" class="principal">Instagram</a></li>
+        <li><a href="https://www.twitch.tv/bertaggia_" target="_blank" rel="external">Twitch</a></li>
+    </ul>
+</body>
+</html>
