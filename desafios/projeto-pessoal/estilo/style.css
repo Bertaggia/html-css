@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Drift';
+    src: url('../fontes/TropicalAsianDemoRegular-11V0.ttf') format('ttf');
+    font-weight: normal;
+}
+
+/*
+    Cores:
+    #0E100D
+    #2F333B
+    #63686B
+    #F2F2F2
+    #FECF37
+    
+*/
+
+:root {
+    --cor01: #0E100D;
+    --cor02: #0E100D;
+    --cor03: #2F333B;
+    --cor04: #63686B;
+    --cor05: #F2F2F2;
+    --cor06: #FECF37;
+
+    --fonte-carros: 'Drift', Verdana
+}
+
+body > header > h1 {
+    font-family:
+    color:
+}
