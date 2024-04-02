@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Drift';
-    src: url('../fontes/TropicalAsianDemoRegular-11V0.ttf') format('ttf');
+    src: url('../fontes/Designer.otf') format('otf');
     font-weight: normal;
 }
 
@@ -26,10 +26,43 @@
     --cor05: #F2F2F2;
     --cor06: #FECF37;
 
-    --fonte-carros: 'Drift', Verdana
+    --fonte-carros: 'Drift', Verdana;
 }
 
-body > header > h1 {
-    font-family:
-    color:
+body {
+    background-color: var(--cor03);
+    color: white;
+    margin:auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, black, gray, white);
+}
+
+h1 {
+    font-family: var(--fonte-carros);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #0E100D;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid, black, 5px;
+}
+nav > a.menu{ 
+    text-decoration: none;
+    color: #0E100D;
+    padding: 10px;
+    bottom: auto;
+}
+    
+h2 {
+
 }
