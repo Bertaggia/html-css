@@ -33,8 +33,23 @@ header {
     padding: 10px;
     color: var(--cor05); 
     text-align: center; 
-    font-size: 1.5em;
+    font-size: 1.6em;
+    font-family: var(--fonte-titulo);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.356);
 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main h1 {
+    text-align: center;
+    padding: 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 2.2em;
+    color: var(--cor01);
 }
 
 main {
@@ -50,7 +65,7 @@ main {
 
 main p {
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     
 }
 
